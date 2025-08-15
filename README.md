@@ -72,9 +72,9 @@ waste-segregation-3class-repo/
 ├── requirements.txt
 ├── LICENSE
 ├── data/
-│   ├── raw/            # put the three class folders here
+│   ├── raw/            
 │   └── README.md
-├── artifacts/          # models & labels.json will be created here
+├── artifacts/         
 ├── src/
 │   ├── train.py
 │   ├── eval.py

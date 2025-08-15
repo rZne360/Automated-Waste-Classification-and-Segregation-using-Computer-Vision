@@ -33,7 +33,7 @@ pip install -r requirements.txt
 python src/train.py --data_dir data/raw --img_size 224 --epochs 15 --freeze 100 --model_out artifacts/model.h5
 ```
 
-### Evaluate (confusion matrix + curves saved to docs/images/)
+### Evaluate (outputs)
 ```bash
 python src/eval.py --data_dir data/raw --model artifacts/model.h5 --img_size 224
 ```
